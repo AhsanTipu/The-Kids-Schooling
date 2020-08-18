@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0ppx;
+}
+.imgl{
+    width: 140px;
+}
+
+.head{
+    background-color: #202020;
+
+}
+#caro{
+    height: 615px;
+} 
+@media screen and (max-width: 480px) {
+    #caro {
+      height: 351px;
+    }
+    #footer{
+        height: 210px;
+    }
+  }
+  
+  .newheading{
+    font-family: 'Baloo Tamma 2', cursive;
+  }
+  .bh{
+    border-bottom: 2px solid red;
+    width: 112px;
+    margin: auto;
+}
+  .foot{
+    background-color: #202020;
+color: white;
+  }
+  .fade-in{
+    animation: fadeIn 4s;
+    animation-timing-function: ease-in-out;
+  
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+  
